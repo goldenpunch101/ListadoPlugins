@@ -1,0 +1,14 @@
+name: ListadoPlugins
+main: com.tuplugin.listadoplugins.ListadoPlugins
+version: 1.0
+api-version: 1.21
+commands:
+  pluginsversion:
+    description: Muestra la lista de plugins con versiones
+    usage: /pluginsversion
+    permission: listadoplugins.use
+permissions:
+  listadoplugins.use:
+    description: Permite usar el comando /pluginsversion
+    default: op
+
