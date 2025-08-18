@@ -1,6 +1,7 @@
 # ListadoPlugins
 Plugins que lista todos los plugins y las versiones alfabeticamente
 
-UNICO COMANDO
-
-/pluginsversion
+Comandos disponibles:
+- /plver show | Lista todos los plugins con estado
+- /plver updates | Lista solo plugins con actualizaciones disponibles
+- /plver reload | Recarga configuración y links
